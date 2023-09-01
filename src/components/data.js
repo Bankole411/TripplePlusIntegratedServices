@@ -1,0 +1,110 @@
+export const paint_products = [
+    {
+        "id": 1,
+        "name": "Satin",
+        //"price":"10.95",
+        "mini_description": "Elevate walls with a gentle shimmer, bridging matte and glossy elegance.",
+        "tag": "Best seller",
+        "interior": true,
+        "exterior": false,
+        //"svg_url": ""
+    }, 
+    {
+        "id": 2,
+        "name": "Emulsion",
+        //"price":"10.95",
+        "mini_description": "Versatile and durable water-based formula for effortlessly stylish spaces.",
+        "tag": "Hot",
+        "interior": true,
+        "exterior": true,
+        //"svg_url": ""
+    }, 
+    {
+        "id": 3,
+        "name": "Matte",
+        //"price":"10.95",
+        "mini_description": "Craft a refined look with a velvety, non-reflective finish that adds depth.",
+        "tag": "New",
+        "interior": true,
+        "exterior": true,
+        //"svg_url": ""
+    }, 
+    {
+        "id": 4,
+        "name": "Wall Primer",
+        //"price":"10.95",
+        "mini_description": "Create the perfect canvas for your vision with our effective wall primer.",
+        "tag": "Essentials",
+        "interior": false,
+        "exterior": true,
+        //"svg_url": "" 
+    }
+]
+
+export const projectsData = [
+    {
+        "id": 1,
+        "imgUrl": "C:/Users/tobib/tripple-plus/src/images/vintage-blush/IMG_20220503_093243.jpg",
+        "project_name": "Rainbow",
+        "location": "Ikeja | Lagos" 
+    },
+    {"id": 2,
+    "imgUrl": "C:/Users/tobib/tripple-plus/src/images/vintage-blush/IMG_20220503_093243.jpg",
+    "project_name": "Vintage blush",
+    "location": "Abeokuta | Ogun"
+    }, 
+    {"id": 3,
+    "imgUrl": "C:/Users/tobib/tripple-plus/src/images/vintage-blush/IMG_20220503_093243.jpg",
+    "project_name": "Azure Tranquility",
+    "location": "Ogba | Lagos" 
+    }
+]
+
+export const approach_items = [
+    {
+        "id": 1,
+        "text": "Developing Core Applications",
+        "subText": "Our design services starts and ends with a best-in-class experience strategy.",
+        "on": false
+    }, 
+    {
+        "id": 2,
+        "text": "Second Core Applications",
+        "subText": "Lorem ipsum.",
+        "on": false
+    }, 
+    {
+        "id": 3,
+        "text": "Third Core Applications",
+        "subText": "Lorem ipsum.",
+        "on": false
+    }
+]
+
+
+export const about_dropdown = [
+    {
+        "id": 1,
+        "text": "Developing Core Applications",
+        "subText": "Our design services starts and ends with a best-in-class experience strategy.",
+        "on": true
+    }, 
+    {
+        "id": 2,
+        "text": "Second Core Applications",
+        "subText": "Lorem ipsum.",
+        "on": false
+    }, 
+    {
+        "id": 3,
+        "text": "Third Core Applications",
+        "subText": "Lorem ipsum.",
+        "on": false
+    },
+    {
+        "id": 4,
+        "text": "Fourth Core Applications",
+        "subText": "Lorem ipsum.",
+        "on": false
+    }
+]
