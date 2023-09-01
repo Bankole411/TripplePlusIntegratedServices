@@ -116,7 +116,7 @@ code {
 }
 
 .project-bg-2 {
-  background-image: url('/src/images/vintage-blush/IMG_20220503_093243.jpg');
+  background-image: url('/src/images/PK-apartments/img3.jpg');
   transition: 0.5s;
 }
 
@@ -126,17 +126,23 @@ code {
 }
 
 .project-bg-4 {
-  background-image: url('/src/images/citrus-serenity/img2.jpg');
+  background-image: url('/src/images/harbor-haven/img1.jpg');
   transition: 0.5s;
 }
 
+
 .project-bg-5 {
-  background-image: url('/src/images/PK-apartments/img3.jpg');
+  background-image: url('/src/images/vintage-blush/IMG_20220503_093243.jpg');
   transition: 0.5s;
 }
 
 .project-bg-6 {
-  background-image: url('/src/images/harbor-haven/img1.jpg');
+  background-image: url('/src/images/citrus-serenity/img2.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-7 {
+  background-image: url('/src/images/Madon-project/img1.jpg');
   transition: 0.5s;
 }
 
@@ -159,6 +165,10 @@ code {
 .subText{
   color: rgba(0, 0, 0, 0.495);
   font-size: 15px;
+}
+
+.core-values-text{
+  color: rgba(255, 255, 255, 0.495);
 }
 
 .moving-image{

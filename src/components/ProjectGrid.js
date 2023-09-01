@@ -34,7 +34,7 @@ export default function ProjectGrid() {
         </div>
       </div>
 
-      <Link to="/" className="project-plus-div flex flex-row justify-center items-center mb-20">
+      <Link to="/projects" className="project-plus-div flex flex-row justify-center items-center mb-20">
         <p className="mx-5 font-semibold">See more projects </p>
         <span className="project-plus-sign p-2 rounded-full text-white">
           <HiOutlinePlusSm />

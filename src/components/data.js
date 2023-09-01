@@ -1,3 +1,8 @@
+import {FaHammer, FaHandshake} from "react-icons/fa"
+import {PiLightbulbLight, PiUserFocus} from "react-icons/pi"
+import {GiScales} from "react-icons/gi"
+
+
 export const paint_products = [
     {
         "id": 1,
@@ -51,10 +56,10 @@ export const projectsData = [
     },
     {"id": 2,
     "imgUrl": "",
-    "project_name": "Vintage blush",
+    "project_name": "Burst of Peach",
     "location": "Abeokuta | Ogun",
-    "route": "vintage-blush",
-    }, 
+    "route": "burst-of-peach", 
+    },
     {"id": 3,
     "imgUrl": "",
     "project_name": "Azure Tranquility",
@@ -63,21 +68,27 @@ export const projectsData = [
     },
     {"id": 4,
     "imgUrl": "",
+    "project_name": "Harbor Haven",
+    "location": "Ask | Later",
+    "route": "harbor-haven", 
+    },
+    {"id": 5,
+    "imgUrl": "",
+    "project_name": "Vintage blush",
+    "location": "Abeokuta | Ogun",
+    "route": "vintage-blush",
+    }, 
+    {"id": 6,
+    "imgUrl": "",
     "project_name": "Citrus Serenity",
     "location": "Abeokuta | Ogun",
     "route": "citrus-serenity", 
     },
-    {"id": 5,
+    {"id": 7,
     "imgUrl": "",
-    "project_name": "Burst of Peach",
-    "location": "Abeokuta | Ogun",
-    "route": "burst-of-peach", 
-    },
-    {"id": 6,
-    "imgUrl": "",
-    "project_name": "Harbor Haven",
+    "project_name": "The Blue & White Duplex",
     "location": "Ask | Later",
-    "route": "harbor-haven", 
+    "route": "blue-white", 
     },
 ]
 
@@ -128,4 +139,38 @@ export const about_dropdown = [
         "subText": "Lorem ipsum.",
         "on": false
     }
+]
+
+export const coreValues = [
+    {
+        "id": 1,
+        "svg": <FaHammer />,
+        "value": "Craftsmanship",
+        "subText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }, 
+    {
+        "id": 2,
+        "svg": <PiLightbulbLight />,
+        "value": "Innovation",
+        "subText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }, 
+    {
+        "id": 3,
+        "svg": <PiUserFocus />,
+        "value": "Customer Centricity",
+        "subText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }, 
+    {
+        "id": 4,
+        "svg": <FaHandshake />,
+        "value": "Trust",
+        "subText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }, 
+    {
+        "id": 5,
+        "svg": <GiScales />,
+        "value": "Integrity",
+        "subText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }, 
+    
 ]
