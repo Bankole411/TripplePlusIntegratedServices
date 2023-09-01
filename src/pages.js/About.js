@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { LiaPlusSolid, LiaMinusSolid } from 'react-icons/lia';
-import { about_dropdown, coreValues } from '../components/data';
+import { about_dropdown, coreValues, servicesData } from '../components/data';
 
 
 function ApproachItem({ item, handleClick }) {
@@ -8,7 +8,7 @@ function ApproachItem({ item, handleClick }) {
       <li className='my-2 hover:cursor-pointer' onClick={() => handleClick(item.id)}>
         <div>
           <span className={`flex flex-row justify-between font-semibold items-center text-xl`}>
-            <p className={`${item.on ? 'text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%' : ''} my-3`}>{item.text}</p>
+            <p className={`${item.on ? 'text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-[#C41313] via-30% to-emerald-500 to-90%' : ''} my-3`}>{item.text}</p>
             {item.on ? <LiaMinusSolid /> : <LiaPlusSolid />}
           </span>
           <hr />
@@ -38,6 +38,19 @@ export default function About() {
           <h1 className='font-semibold text-xl mb-3'>{card.value}</h1>
           <p className='font-semibold core-values-text'>{card.subText}</p>
         </div>
+      )
+    })
+
+    const services = servicesData.map(service => {
+      return(
+          <>
+            <div className='mb-3 md:mb-0 font-semibold text-2xl md:text-4xl flex items-center'>{service.serviceName}</div>
+                  <div className='font-semibold'>
+                    <h1 className='mb-2  text-xl md:text-2xl'>{service.serviceSuperText}</h1>
+                    <p className='services-text md:pr-3 mb-10'>{service.seviceSubText}</p>
+                  </div>
+            <div className='w-full h-[1px] bg-[#000000] col-span-1 md:col-span-2 mb-10'></div>
+          </>
       )
     })
     
@@ -79,6 +92,34 @@ export default function About() {
                   </div>
                 </div>
               </div>
+            </section>
+
+            <section className='mx-10 my:10 md:my-20'>
+              <div className='flex flex-row items-center mb-4'>
+                <div className='mr-5 flex flex-row md:mr-20'>
+                <span class="animate-bounce relative flex h-3 w-3 mr-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#C41313] opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-[#C41313]"></span>
+                </span>
+                <span class="animate-bounce relative flex h-3 w-3 mr-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#C41313] opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-[#C41313]"></span>
+                </span>
+                <span class="animate-bounce relative flex h-3 w-3 mr-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#C41313] opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-[#C41313]"></span>
+                </span>
+                </div>
+                <h1 className='font-semibold'>Our Services</h1>
+              </div>
+                <div className='w-full h-[1px] bg-[#000000]'></div>
+
+                <div className='my-10 md:items-center'>
+                  <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
+                    {services}
+                  </div>
+                </div>
+
             </section>
         </section>
     </>

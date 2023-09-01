@@ -1,6 +1,7 @@
 import {FaHammer, FaHandshake} from "react-icons/fa"
 import {PiLightbulbLight, PiUserFocus} from "react-icons/pi"
 import {GiScales} from "react-icons/gi"
+import {IoIosPeople} from "react-icons/io"
 
 
 export const paint_products = [
@@ -172,5 +173,26 @@ export const coreValues = [
         "value": "Integrity",
         "subText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     }, 
+    {
+        "id": 6,
+        "svg": <IoIosPeople />,
+        "value": "Teamwork",
+        "subText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    }, 
     
+]
+
+export const servicesData = [
+    {
+        "id" : 1,
+        "serviceName": "Production only",
+        "serviceSuperText" : "Lorem ipsum dolor sit amet",
+        "seviceSubText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam non dolor semper, eget varius velit facilisis. Suspendisse potenti. Nulla facilisi. Vivamus eu libero non erat auctor luctus a id libero. Vivamus eleifend eros at velit maximus, id malesuada purus tempor.",
+    },
+    {
+        "id" : 2,
+        "serviceName": "Production and Application",
+        "serviceSuperText" : "Lorem ipsum dolor sit amet",
+        "seviceSubText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam non dolor semper, eget varius velit facilisis. Suspendisse potenti. Nulla facilisi. Vivamus eu libero non erat auctor luctus a id libero. Vivamus eleifend eros at velit maximus, id malesuada purus tempor.",
+    },
 ]

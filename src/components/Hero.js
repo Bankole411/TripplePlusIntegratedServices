@@ -14,6 +14,10 @@ import image2 from '../images/project1/pre-completion/IMG20230804125816.jpg';
 import image3 from '../images/project1/pre-completion/IMG20230804125535.jpg';
 import image4 from '../images/project1/pre-completion/IMG20230804125757.jpg';
 import image5 from '../images/project1/pre-completion/IMG20230804134431.jpg';
+import image6 from '../images/citrus-serenity/img2.jpg';
+import image7 from '../images/harbor-haven/img1.jpg';
+import image8 from '../images/vintage-blush/IMG_20220503_093243.jpg';
+import image9 from '../images/vintage-blush/IMG_20220503_093053.jpg';
 
 export default function Hero(card) {
     const [isInterior, setisInterior] = useState(true)
@@ -74,12 +78,16 @@ export default function Hero(card) {
                         <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
                         <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
                         <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
+                        <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
+                        <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
+                        <SwiperSlide><img src={image8} alt='Slide 8' /></SwiperSlide>
+                        <SwiperSlide><img src={image9} alt='Slide 9' /></SwiperSlide>
                     </Swiper>
                 </div>
                 {/* Text div centered for screens < 1270px */}
                 <div className='absolute top-1/2 left-0 right-0 m-auto lg:hidden text-center z-10 block'>
                     <h1 className='text-white text-4xl lg:text-6xl'>Tripple plus</h1>
-                    <h1 className='mt-5 text-white text-2xl lg:text-4xl'>Let's add a plus to your property</h1>
+                    <h1 className='font-semibold mt-5 text-white md:text-2xl lg:text-4xl'>Let's add a plus to your property</h1>
                 </div>
             </section>
             <section className='mx-5 mb-30 justify-center items-center'>
