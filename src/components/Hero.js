@@ -17,7 +17,6 @@ import image5 from '../images/project1/pre-completion/IMG20230804134431.jpg';
 import image6 from '../images/citrus-serenity/img2.jpg';
 import image7 from '../images/harbor-haven/img1.jpg';
 import image8 from '../images/vintage-blush/IMG_20220503_093243.jpg';
-import image9 from '../images/vintage-blush/IMG_20220503_093053.jpg';
 
 export default function Hero(card) {
     const [isInterior, setisInterior] = useState(true)
@@ -81,7 +80,6 @@ export default function Hero(card) {
                         <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
                         <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
                         <SwiperSlide><img src={image8} alt='Slide 8' /></SwiperSlide>
-                        <SwiperSlide><img src={image9} alt='Slide 9' /></SwiperSlide>
                     </Swiper>
                 </div>
                 {/* Text div centered for screens < 1270px */}
