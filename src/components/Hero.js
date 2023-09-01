@@ -70,10 +70,10 @@ export default function Hero(card) {
                         className='mySwiper'
                     >
                         <SwiperSlide><img src={image1} alt='Slide 1' /></SwiperSlide>
-                        <SwiperSlide><img src={image2} alt='Slide 1' /></SwiperSlide>
-                        <SwiperSlide><img src={image3} alt='Slide 1' /></SwiperSlide>
-                        <SwiperSlide><img src={image4} alt='Slide 1' /></SwiperSlide>
-                        <SwiperSlide><img src={image5} alt='Slide 1' /></SwiperSlide>
+                        <SwiperSlide><img src={image2} alt='Slide 2' /></SwiperSlide>
+                        <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
+                        <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
+                        <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
                     </Swiper>
                 </div>
                 {/* Text div centered for screens < 1270px */}
