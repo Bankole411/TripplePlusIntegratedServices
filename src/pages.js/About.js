@@ -60,13 +60,13 @@ export default function About() {
                       </div>
                 </div>
             </section>
-            <section className='w-screen bg-[#0a3332]'>
+            <section className='max-w-screen bg-[#0a3332]'>
               <div className='pt-10 md:pb-10 px-10 md:px-20 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 items-end my-10'>
                 <div className='flex flex-col my-3'>
                 <span className='mb-3 max-w-[150px] bg-[#C41313] py-1 px-2 rounded-full font-semibold text-white'>Our core values</span>
                 <h1 className='max-w-[350px] leading-relaxed text-3xl font-semibold text-white'>These are the values and morals we stand by</h1>
                 </div>
-                <div className='py-1 my-3 md:col-span-2 lg:col-span-2'>
+                <div className='py-1 my-3 md:col-span-2 lg:col-span-2 md:ml-2'>
                   <p className="core-values-text md:max-w-[450px] leading-5">We build and activate brands through cultural insight, strategic vision, and the power of emotion across every element.</p>
                 </div> 
               </div>
