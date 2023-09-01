@@ -44,20 +44,41 @@ export const paint_products = [
 export const projectsData = [
     {
         "id": 1,
-        "imgUrl": "C:/Users/tobib/tripple-plus/src/images/vintage-blush/IMG_20220503_093243.jpg",
+        "imgUrl": "",
         "project_name": "Rainbow",
-        "location": "Ikeja | Lagos" 
+        "location": "Ikeja | Lagos",
+        "route": "rainbow", 
     },
     {"id": 2,
-    "imgUrl": "C:/Users/tobib/tripple-plus/src/images/vintage-blush/IMG_20220503_093243.jpg",
+    "imgUrl": "",
     "project_name": "Vintage blush",
-    "location": "Abeokuta | Ogun"
+    "location": "Abeokuta | Ogun",
+    "route": "vintage-blush",
     }, 
     {"id": 3,
-    "imgUrl": "C:/Users/tobib/tripple-plus/src/images/vintage-blush/IMG_20220503_093243.jpg",
+    "imgUrl": "",
     "project_name": "Azure Tranquility",
-    "location": "Ogba | Lagos" 
-    }
+    "location": "Ogba | Lagos",
+    "route": "azure-tranquility", 
+    },
+    {"id": 4,
+    "imgUrl": "",
+    "project_name": "Citrus Serenity",
+    "location": "Abeokuta | Ogun",
+    "route": "citrus-serenity", 
+    },
+    {"id": 5,
+    "imgUrl": "",
+    "project_name": "Burst of Peach",
+    "location": "Abeokuta | Ogun",
+    "route": "burst-of-peach", 
+    },
+    {"id": 6,
+    "imgUrl": "",
+    "project_name": "Harbor Haven",
+    "location": "Ask | Later",
+    "route": "harbor-haven", 
+    },
 ]
 
 export const approach_items = [
