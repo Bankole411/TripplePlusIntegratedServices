@@ -34,14 +34,12 @@ export default function Projects() {
   return (
     <section>
       <div className="mb-20 mx-5 md:ml-10 mt-20">
-        <div className="lg:mt-20 mt-5 m-auto text-center max-w-[600px]">
-          <h1 className="mb-5 font text-4xl font-extrabold">Projects</h1>
-          <p className="mb-10 text-1xl font-bold">
-            Our design services start and end with a best-in-class experience strategy that builds brands.
-          </p>
+        <div className="lg:mt-20 mt-5 max-w-[600px]">
+          <h1 className="mb-5 font text-4xl font-extrabold">Our Portfolio</h1>
+          <div className='w-full h-[1px] bg-[#000000] mb-10'></div>
         </div>
 
-        <div className="max-width grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 md:mr-10 mt-10 md:mt-20">
+        <div className="max-width grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 md:mr-10 mt-10 md:mt-10">
           {projects}
         </div>
       </div>

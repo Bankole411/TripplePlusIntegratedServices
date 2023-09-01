@@ -13,7 +13,7 @@ export const paint_products = [
         "tag": "Best seller",
         "interior": true,
         "exterior": false,
-        //"svg_url": ""
+        "img_url": "pic.jpg"
     }, 
     {
         "id": 2,
@@ -23,7 +23,7 @@ export const paint_products = [
         "tag": "Hot",
         "interior": true,
         "exterior": true,
-        //"svg_url": ""
+        "img_url": "pic2.jpg"
     }, 
     {
         "id": 3,
@@ -33,7 +33,7 @@ export const paint_products = [
         "tag": "New",
         "interior": true,
         "exterior": true,
-        //"svg_url": ""
+        "img_url": "pic.jpg"
     }, 
     {
         "id": 4,
@@ -43,7 +43,7 @@ export const paint_products = [
         "tag": "Essentials",
         "interior": false,
         "exterior": true,
-        //"svg_url": "" 
+        "img_url": "pic2.jpg" 
     }
 ]
 
