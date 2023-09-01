@@ -125,6 +125,21 @@ code {
   transition: 0.5s;
 }
 
+.project-bg-4 {
+  background-image: url('/src/images/citrus-serenity/img2.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-5 {
+  background-image: url('/src/images/PK-apartments/img3.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-6 {
+  background-image: url('/src/images/harbor-haven/img1.jpg');
+  transition: 0.5s;
+}
+
 .project-homepage-title-span{
   position: absolute;
   bottom: 20px;
