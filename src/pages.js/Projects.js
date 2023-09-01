@@ -6,7 +6,7 @@ export default function Projects() {
     const projects = projectsData.map(project => {
         const projectClass = `project-bg-${project.id}`;
         return(
-            <Link to="/" className={`container ${project.id === 1 ? 'lg:col-span-2 lg:row-span-2' : ''} ${project.id === 1 ? 'lg:h-[550px]' : ''}`} key={project.id}>
+            <Link to={project.route} className={`container ${project.id === 1 ? 'lg:col-span-2 lg:row-span-2' : ''} ${project.id === 1 ? 'lg:h-[550px]' : ''}`} key={project.id}>
                 <div className={`image ${projectClass}`}>
                 <span className="project-homepage-title-span rounded font-bold flex flex-column justify-between px-4 items-center text-white">
                     <h2>{project.project_name}</h2>
