@@ -77,7 +77,7 @@ export const projectsData = [
     "imgUrl": "",
     "project_name": "Vintage blush",
     "location": "Abeokuta | Ogun",
-    "route": "vintage-blush",
+    "route": "vintage",
     }, 
     {"id": 6,
     "imgUrl": "",

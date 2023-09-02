@@ -11,7 +11,7 @@ export default function Footer() {
                           <div className='my-5'>
                             <h1 className='footer-transparent-text font-semibold text-3xl md:max-w-[500px] leading-relaxed tracking-tight hover:tracking-wide'>Collaboration, work enquires or just say hello</h1>
                             <a href="mailto: trippleplus.ng@gmail.com" rel="noopener noreferrer" target="_blank">
-                                <h1 className='font-semibold md:text-3xl mt-5 text-white text-2xl'>trippleplus.ng@gmail.com</h1>
+                                <h1 className='font-semibold md:text-3xl mt-5 text-white'>trippleplus.ng@gmail.com</h1>
                             </a>
 
                             <a href="mailto: trippleplus.ng@gmail.com" rel="noopener noreferrer" target='_blank'>
@@ -21,7 +21,7 @@ export default function Footer() {
                             </button>
                             </a>
                           </div>
-                          <div className='md:justify-end text-white my-5 flex flex-row font-semibold'>
+                          <div className='md:justify-end text-white my-5 flex flex-row justify-between font-semibold'>
                             <a href="https://www.behance.net/triplearchive" target='_blank' rel="noopener noreferrer" className='md:pl-5'>Behance</a>
                             <a href="https://www.behance.net/triplearchive" target='_blank' rel="noopener noreferrer" className='pl-5'>Behance</a>
                           </div>

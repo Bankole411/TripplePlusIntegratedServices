@@ -8,7 +8,7 @@ export default function ProjectGrid() {
   const projects = projectsData.slice(0, 6).map((project) => {
     const projectClass = `project-bg-${project.id}`;
     return (
-      <Link to={project.route} className={`container`} key={project.id}>
+      <Link to={`projects/${project.route}`} className={`container`} key={project.id}>
         <div className={`image ${projectClass}`}>
           <span className="project-homepage-title-span rounded font-bold flex flex-column justify-between px-4 items-center text-white">
             <h2>{project.project_name}</h2>
