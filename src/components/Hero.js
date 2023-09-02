@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Link } from 'react-router-dom'
 import ProjectGrid from './ProjectGrid';
 import ApproachSection from './ApproachSection';
-import {paint_products} from "./data";
+import { paint_products } from "./data";
 
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -66,62 +66,59 @@ export default function Hero(card) {
                     <div className='font-semibold'>
                         <h1 className='text-3xl mb-5'>Tripple Plus Integrated Services</h1>
                         <div className='w-full h-[1px] bg-[#000000] mb-5'></div>
-                        <p className='text-xl'>Let's add a plus to your property</p>
+                        <p className='text-xl'>Let's add a <pre className=' inline text-pink-600 italic'>plus</pre> to your property</p>
                     </div>
                     <div>
-                    <div className='hero-carousel'>
-                    <Swiper
-                        spaceBetween={30}
-                        centeredSlides={true}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
-                        modules={[Autoplay]}
-                        className='mySwiper'
-                    >
-                        <SwiperSlide><img src={image1} alt='Slide 1' /></SwiperSlide>
-                        <SwiperSlide><img src={image2} alt='Slide 2' /></SwiperSlide>
-                        <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
-                        <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
-                        <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
-                        <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
-                        <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
-                    </Swiper>
-                </div>
+                        <div className='hero-carousel'>
+                            <Swiper
+                                spaceBetween={30}
+                                centeredSlides={true}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                modules={[Autoplay]}
+                                className='mySwiper'
+                            >
+                                <SwiperSlide><img src={image1} alt='Slide 1' /></SwiperSlide>
+                                <SwiperSlide><img src={image2} alt='Slide 2' /></SwiperSlide>
+                                <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
+                                <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
+                                <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
+                                <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
+                                <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
+                            </Swiper>
+                        </div>
                     </div>
                 </section>
             </div>
 
             <div className='md:hidden lg:hidden xl-hidden px-5 py-5'>
+                <div className='font-extrabold mx-auto text-center mb-5'>
+                    <p className='mb-3 text-2xl'>Tripple Plus Integrated Services</p>
+                    <p className='font-bold text-[15px]'>let's add a <pre className=' inline text-pink-600 italic'>plus</pre> to your property</p>
+                </div>
                 <div className='grid grid-cols-12 flex flex-row items-center'>
-                <div className='rotate-180 col-span-1 font-extrabold' style={{ writingMode: 'vertical-rl' }}>
-                    Tripple Plus Integrated Services
-                </div>
-
-                <p className='rotate-180 col-span-1 font-bold text-[12px]' style={{ writingMode: 'vertical-rl' }}>let's add a plus to your property</p>
-                    
-
-                <div className='hero-carousel col-span-10'>
-                <Swiper
-            spaceBetween={30}
-            centeredSlides={true}
-            autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-            }}
-            modules={[Autoplay]}
-            className='mySwiper'
-        >
-            <SwiperSlide><img src={image1} alt='Slide 1' /></SwiperSlide>
-            <SwiperSlide><img src={image2} alt='Slide 2' /></SwiperSlide>
-            <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
-            <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
-            <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
-            <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
-            <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
-        </Swiper>
-                </div>
+                    <div className='hero-carousel col-span-12'>
+                        <Swiper
+                            spaceBetween={30}
+                            centeredSlides={true}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }}
+                            modules={[Autoplay]}
+                            className='mySwiper'
+                        >
+                            <SwiperSlide><img src={image1} alt='Slide 1' /></SwiperSlide>
+                            <SwiperSlide><img src={image2} alt='Slide 2' /></SwiperSlide>
+                            <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
+                            <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
+                            <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
+                            <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
+                            <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
+                        </Swiper>
+                    </div>
                 </div>
             </div>
 
@@ -134,10 +131,10 @@ export default function Hero(card) {
 
                 <div className={`mx-auto cursor-pointer max-w-[300px] hero-switch-div items-center justify-center rounded-full pt-2 pb-2`}>
                     <Link>
-                    <div onClick={handleClick} className={`rounded-full hero-switch-items font-bold mx-auto pr-7 pl-7 pt-2 pb-2 ml-2 items-center justify-center ${isInterior ? 'bg-white' : ''}`}>Interior</div>
+                        <div onClick={handleClick} className={`rounded-full hero-switch-items font-bold mx-auto pr-7 pl-7 pt-2 pb-2 ml-2 items-center justify-center ${isInterior ? 'bg-white' : ''}`}>Interior</div>
                     </Link>
                     <Link>
-                    <div onClick={handleClick} className={`rounded-full font-bold mx-auto pr-7 pl-7 pt-2 pb-2 mr-2 items-center justify-center ${!isInterior ? 'bg-white' : ''}`}>Exterior</div>
+                        <div onClick={handleClick} className={`rounded-full font-bold mx-auto pr-7 pl-7 pt-2 pb-2 mr-2 items-center justify-center ${!isInterior ? 'bg-white' : ''}`}>Exterior</div>
                     </Link>
                 </div>
                 {interiorCards.length > 0 && <div className={`${isInterior ? 'block' : 'hidden'} max-width grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 md:ml-10 md:mr-10 mt-10 md:mt-20 mb-10`}>
