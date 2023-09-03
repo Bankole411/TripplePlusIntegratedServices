@@ -57,16 +57,16 @@ export default function VintageBlush() {
                                 modules={[Autoplay]}
                                 className='mySwiper'
                             >
-                                <SwiperSlide><img src={image1} alt='Slide 1' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image2} alt='Slide 2' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image3} alt='Slide 3' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image4} alt='Slide 4' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image5} alt='Slide 5' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image6} alt='Slide 6' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image7} alt='Slide 7' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image8} alt='Slide 8' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image9} alt='Slide 9' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide><img src={image10} alt='Slide 10' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image1} alt='Slide 1' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image2} alt='Slide 2' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image3} alt='Slide 3' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image4} alt='Slide 4' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image8} alt='Slide 8' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image9} alt='Slide 9' className='object-cover rounded-lg'/></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image10} alt='Slide 10' className='object-cover rounded-lg'/></SwiperSlide>
                             </Swiper>
                         </div>
         </section>
