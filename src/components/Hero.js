@@ -80,13 +80,13 @@ export default function Hero(card) {
                                 modules={[Autoplay]}
                                 className='mySwiper'
                             >
-                                <SwiperSlide><img src={image1} alt='Slide 1' /></SwiperSlide>
-                                <SwiperSlide><img src={image2} alt='Slide 2' /></SwiperSlide>
-                                <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
-                                <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
-                                <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
-                                <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
-                                <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image1} alt='Slide 1' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image2} alt='Slide 2' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image3} alt='Slide 3' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image4} alt='Slide 4' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' /></SwiperSlide>
                             </Swiper>
                         </div>
                     </div>
@@ -110,13 +110,13 @@ export default function Hero(card) {
                             modules={[Autoplay]}
                             className='mySwiper'
                         >
-                            <SwiperSlide><img src={image1} alt='Slide 1' /></SwiperSlide>
-                            <SwiperSlide><img src={image2} alt='Slide 2' /></SwiperSlide>
-                            <SwiperSlide><img src={image3} alt='Slide 3' /></SwiperSlide>
-                            <SwiperSlide><img src={image4} alt='Slide 4' /></SwiperSlide>
-                            <SwiperSlide><img src={image5} alt='Slide 5' /></SwiperSlide>
-                            <SwiperSlide><img src={image6} alt='Slide 6' /></SwiperSlide>
-                            <SwiperSlide><img src={image7} alt='Slide 7' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image1} alt='Slide 1' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image2} alt='Slide 2' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image3} alt='Slide 3' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image4} alt='Slide 4' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' /></SwiperSlide>
                         </Swiper>
                     </div>
                 </div>
