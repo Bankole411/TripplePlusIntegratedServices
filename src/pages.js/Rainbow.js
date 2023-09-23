@@ -1,8 +1,4 @@
 import React from 'react'
-import { Autoplay } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/autoplay';
 
 import image1 from "../images/project1/pre-completion/IMG20230804125239.jpg"
 import image2 from "../images/project1/pre-completion/IMG20230804125535.jpg"
@@ -19,7 +15,7 @@ export default function Rainbow() {
   return (
     <>
       <section className='font-semibold'>
-        <section className='bg-[#0a3332] px-10 text-center text-white'>
+        <section className='bg-[#0a3332] px-10 text-center text-white md:pb-20'>
           <h1 className='pt-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>CromaSpectrum Terrace: </h1>
           <h3 className='pt-10 md:text-xl text-2xl'>Where Life Finds Its Colorful Rhythm</h3>
           <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>Discover the vibrant soul of urban living at a project we call Rainbow Retreat. These terrace buildings have been transformed into a harmonious celebration of colors, offering you a unique and spirited place to call home. Embrace the joyful spirit of the rainbow as it stretches across the skyline, and experience the warmth and energy that comes from living in a community where every color has its place.</p>
@@ -45,30 +41,19 @@ export default function Rainbow() {
           </div>
         </section>
 
-        <section className='md:w-[70vw] max-h-[1000px] overflow-hidden mx-auto my-10'>
-        <div className='hero-carousel px-5'>
-                            <Swiper
-                                spaceBetween={30}
-                                centeredSlides={true}
-                                autoplay={{
-                                    delay: 2500,
-                                    disableOnInteraction: false,
-                                }}
-                                modules={[Autoplay]}
-                                className='mySwiper'
-                            >
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image1} alt='Slide 1' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image2} alt='Slide 2' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image3} alt='Slide 3' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image4} alt='Slide 4' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image8} alt='Slide 8' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image9} alt='Slide 9' className='object-cover rounded-lg'/></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image10} alt='Slide 10' className='object-cover rounded-lg'/></SwiperSlide>
-                            </Swiper>
-                        </div>
+        <section className='md:w-[70vw] max-h-[600px] overflow-auto mx-auto my-10 bg-[#80808030] p-5'>
+         <div className=''>
+            <img src={image1} alt="image1" className='rounded-lg mb-4'/>
+            <img src={image2} alt="image2" className='rounded-lg mb-4'/>
+            <img src={image3} alt="image3" className='rounded-lg mb-4'/>
+            <img src={image4} alt="image4" className='rounded-lg mb-4'/>
+            <img src={image5} alt="image5" className='rounded-lg mb-4'/>
+            <img src={image6} alt="image6" className='rounded-lg mb-4'/>
+            <img src={image7} alt="image7" className='rounded-lg mb-4'/>
+            <img src={image8} alt="image8" className='rounded-lg mb-4'/>
+            <img src={image9} alt="image9" className='rounded-lg mb-4'/>
+            <img src={image10} alt="image10" className='rounded-lg mb-4'/>
+         </div>
         </section>
       </section>
     </>

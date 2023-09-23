@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {Header, Footer} from "./components"
-import {Homepage, Projects, About, VintageBlush, Rainbow, Error} from "./pages.js"
+import {Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility} from "./pages.js"
 
 function App() {
   return (
@@ -13,6 +13,8 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/projects/vintage" element={<VintageBlush />}></Route>
         <Route path="/projects/rainbow" element={<Rainbow />}></Route>
+        <Route path="/projects/citrus-serenity" element={<CitrusSerenity />}></Route>
+        <Route path="/projects/azure-tranquility" element={<AzureTranquility />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer />

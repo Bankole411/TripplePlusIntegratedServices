@@ -66,7 +66,7 @@ export default function Hero(card) {
                     <div className='font-semibold'>
                         <h1 className='text-3xl mb-5'>Tripple Plus Integrated Services</h1>
                         <div className='w-full h-[1px] bg-[#000000] mb-5'></div>
-                        <p className='text-xl'>Let's add a <pre className=' inline text-pink-600 italic'>plus</pre> to your property</p>
+                        <p className='tag-line text-4xl'>Let's add a <pre className=' inline text-pink-600 italic'>plus</pre> to your property</p>
                     </div>
                     <div>
                         <div className='hero-carousel'>
@@ -96,7 +96,7 @@ export default function Hero(card) {
             <div className='md:hidden lg:hidden xl-hidden px-5 py-5'>
                 <div className='font-extrabold mx-auto text-center mb-5'>
                     <p className='mb-3 text-2xl'>Tripple Plus Integrated Services</p>
-                    <p className='font-bold text-[15px]'>let's add a <pre className=' inline text-pink-600 italic'>plus</pre> to your property</p>
+                    <p className='tag-line font-bold text-[25px]'>let's add a <pre className=' inline text-pink-600 italic'>plus</pre> to your property</p>
                 </div>
                 <div className='grid grid-cols-12 flex flex-row items-center'>
                     <div className='hero-carousel col-span-12'>

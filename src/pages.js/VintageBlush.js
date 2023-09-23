@@ -19,7 +19,7 @@ export default function VintageBlush() {
   return (
     <>
       <section className='font-semibold'>
-        <section className='bg-[#0a3332] px-10 text-center text-white'>
+        <section className='bg-[#0a3332] px-10 text-center text-white md:pb-20'>
           <h1 className='pt-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Vintage Blush: </h1>
           <h3 className='pt-10 md:text-xl text-2xl'>A Peach & Wine Abode</h3>
           <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>Welcome to 'Vintage Blush,' where the delicate warmth of peach intertwines with the rich allure of wine, creating an enchanting tapestry of residential elegance that evokes timeless sophistication.</p>
