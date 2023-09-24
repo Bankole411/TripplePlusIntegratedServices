@@ -41,7 +41,7 @@ export default function Rainbow() {
           </div>
         </section>
 
-        <section className='md:w-[70vw] max-h-[600px] overflow-auto mx-auto my-10 bg-[#80808030] p-5'>
+        <section className='mx-10 md:w-[70vw] max-h-[600px] overflow-auto md:mx-auto my-10 bg-[#80808030] p-5'>
          <div className=''>
             <img src={image1} alt="image1" className='rounded-lg mb-4'/>
             <img src={image2} alt="image2" className='rounded-lg mb-4'/>
