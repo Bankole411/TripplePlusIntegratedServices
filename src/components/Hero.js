@@ -9,13 +9,15 @@ import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
-import image1 from '../images/project1/pre-completion/IMG20230804125239.jpg';
-import image2 from '../images/project1/pre-completion/IMG20230804125816.jpg';
-import image3 from '../images/project1/pre-completion/IMG20230804125535.jpg';
-import image4 from '../images/project1/pre-completion/IMG20230804125757.jpg';
-import image5 from '../images/project1/pre-completion/IMG20230804134431.jpg';
-import image6 from '../images/citrus-serenity/img2.jpg';
-import image7 from '../images/harbor-haven/img1.jpg';
+import image1 from '../images/project1/post-completion/IMG20230926104500.jpg';
+import image2 from '../images/project1/post-completion/IMG20230926104545.jpg';
+import image3 from '../images/project1/post-completion/IMG20230926104550.jpg';
+import image4 from '../images/project1/post-completion/IMG20230926104713.jpg';
+import image5 from '../images/project1/post-completion/IMG20230926104731.jpg';
+import image6 from '../images/project1/post-completion/IMG20230926104903.jpg';
+import image7 from '../images/project1/post-completion/IMG20230926104906.jpg';
+import image8 from '../images/citrus-serenity/img2.jpg';
+import image9 from '../images/harbor-haven/img1.jpg';
 
 export default function Hero(card) {
     const [isInterior, setisInterior] = useState(true)
@@ -87,6 +89,8 @@ export default function Hero(card) {
                                 <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' /></SwiperSlide>
                                 <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' /></SwiperSlide>
                                 <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image8} alt='Slide 8' /></SwiperSlide>
+                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image9} alt='Slide 9' /></SwiperSlide>
                             </Swiper>
                         </div>
                     </div>
@@ -117,6 +121,8 @@ export default function Hero(card) {
                             <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' /></SwiperSlide>
                             <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' /></SwiperSlide>
                             <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image8} alt='Slide 8' /></SwiperSlide>
+                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image9} alt='Slide 9' /></SwiperSlide>
                         </Swiper>
                     </div>
                 </div>

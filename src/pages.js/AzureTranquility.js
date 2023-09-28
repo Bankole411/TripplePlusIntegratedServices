@@ -11,9 +11,9 @@ export default function AzureTranquility() {
     <>
     <section className='font-semibold'>
       <section className='bg-[#0a3332] px-10 text-center text-white md:pb-20'>
-        <h1 className='pt-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>CromaSpectrum Terrace: </h1>
-        <h3 className='pt-10 md:text-xl text-2xl'>Where Life Finds Its Colorful Rhythm</h3>
-        <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>Discover the vibrant soul of urban living at a project we call Rainbow Retreat. These terrace buildings have been transformed into a harmonious celebration of colors, offering you a unique and spirited place to call home. Embrace the joyful spirit of the rainbow as it stretches across the skyline, and experience the warmth and energy that comes from living in a community where every color has its place.</p>
+        <h1 className='pt-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>CromaSpectrum Terrace</h1>
+        {/* <h3 className='pt-10 md:text-xl text-2xl'>Where Life Finds Its Colorful Rhythm</h3>
+        <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>Discover the vibrant soul of urban living at a project we call Rainbow Retreat. These terrace buildings have been transformed into a harmonious celebration of colors, offering you a unique and spirited place to call home. Embrace the joyful spirit of the rainbow as it stretches across the skyline, and experience the warmth and energy that comes from living in a community where every color has its place.</p> */}
       </section>
 
       <section className='grid grid-cols-1 md:grid-cols-2 mx-5 my-20'>
