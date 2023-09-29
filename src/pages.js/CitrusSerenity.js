@@ -14,7 +14,7 @@ export default function CitrusSerenity() {
     <>
       <section className='font-semibold'>
         <section className='bg-[#0a3332] px-10 text-center text-white md:pb-20'>
-          <h1 className='pt-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Citrus Serenity</h1>
+          <h1 className='py-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Citrus Serenity</h1>
           {/* <h3 className='pt-10 md:text-xl text-2xl'>Where Green and Orange Converge</h3>
           <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>This project embodies the perfect fusion of green and orange, creating an atmosphere of refreshing tranquility. Imagine waking up to the soothing embrace of nature's green and the invigorating zest of orange hues. This meticulously designed living space harmoniously blends the calm of green with the energy of orange, offering a unique and rejuvenating living experience. Welcome to a home where Citrus Serenity is not just a tagline, but a way of life, where every day feels like a fresh, sun-kissed morning in your very own citrus-scented paradise.</p> */}
         </section>

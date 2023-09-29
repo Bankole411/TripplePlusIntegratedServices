@@ -87,9 +87,9 @@ export const projectsData = [
     },
     {"id": 7,
     "imgUrl": "",
-    "project_name": "The Blue & White Duplex",
+    "project_name": "Madon Project",
     "location": "Ask | Later",
-    "route": "blue-white", 
+    "route": "madon-project", 
     },
 ]
 

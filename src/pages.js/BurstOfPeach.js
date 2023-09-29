@@ -14,7 +14,7 @@ export default function BurstOfPeach() {
     <>
     <section className='font-semibold'>
       <section className='bg-[#0a3332] px-10 text-center text-white md:pb-20'>
-        <h1 className='pt-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Burst of Peach</h1>
+        <h1 className='py-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Burst of Peach</h1>
         {/* <h3 className='pt-10 md:text-xl text-2xl'>Where Colors Unite in Harmony</h3>
         <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>Step into a world where serenity meets vibrancy at "Burst of Peach." This project, painted in the gentlest hues of peach with delicate whispers of cream, dark blue, and white, offer a unique canvas for your dreams to flourish. Each corner exudes warmth, inviting you to embrace a life of elegance and comfort. "Burst of Peach" is not just a place to reside; it's a celebration of the finer things in life, where every day feels like a gentle, sunlit reverie. Welcome home to a world where dreams effortlessly blossom.</p> */}
       </section>

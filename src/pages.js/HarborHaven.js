@@ -13,7 +13,7 @@ export default function HarborHaven() {
     <>
     <section className='font-semibold'>
       <section className='bg-[#0a3332] px-10 text-center text-white md:pb-20'>
-        <h1 className='pt-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Harbor Haven</h1>
+        <h1 className='py-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Harbor Haven</h1>
         {/* <h3 className='pt-10 md:text-xl text-2xl'>Where Tranquility Finds Its Harbor</h3>
         <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>Welcome to "Harbor Haven," where the serene shades of blue and earthy browns come together to create a peaceful and inviting residential retreat. This meticulously designed home offers a sanctuary where every detail has been carefully curated for comfort and relaxation. Whether you're gazing at the horizon from your tranquil blue-themed living space or finding solace in the warmth of brown accents, "Harbor Haven" beckons you to experience a life of tranquility and contentment. Step inside and discover a harbor where serenity is not just a promise but a way of life, where you can finally drop anchor and find your peaceful haven.</p> */}
       </section>
