@@ -14,5 +14,8 @@ import BrownstoneOasis from "./BrownstoneOasis";
 import PrincipalProject from "./PrincipalProject";
 import BrownProject from "./BrownProject";
 import WhiteCastle from "./WhiteCastle";
+import CitrusGrove from "./CitrusGrove";
+import BurgundyElegance from "./BurgundyElegance";
+import Coah from "./Coah";
 
-export { Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility, HarborHaven, BurstOfPeach, MadonProject, Wemabod, BrownstoneOasis, PrincipalProject, BrownProject, WhiteCastle }
+export { Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility, HarborHaven, BurstOfPeach, MadonProject, Wemabod, BrownstoneOasis, PrincipalProject, BrownProject, WhiteCastle, CitrusGrove, BurgundyElegance, Coah }

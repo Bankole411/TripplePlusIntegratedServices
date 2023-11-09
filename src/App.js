@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {Header, Footer} from "./components"
-import {Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility, HarborHaven, BurstOfPeach, MadonProject, Wemabod, BrownstoneOasis, PrincipalProject, BrownProject, WhiteCastle} from "./pages.js"
+import {Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility, HarborHaven, BurstOfPeach, MadonProject, Wemabod, BrownstoneOasis, PrincipalProject, BrownProject, WhiteCastle, CitrusGrove, BurgundyElegance, Coah} from "./pages.js"
 
 function App() {
   return (
@@ -23,6 +23,9 @@ function App() {
         <Route path="/projects/principal" element={<PrincipalProject />}></Route>
         <Route path="/projects/brown-project" element={<BrownProject />}></Route>
         <Route path="/projects/white-castle" element={<WhiteCastle />}></Route>
+        <Route path="/projects/citrus-grove" element={<CitrusGrove />}></Route>
+        <Route path="/projects/burgundy-elegance" element={<BurgundyElegance />}></Route>
+        <Route path="/projects/coah" element={<Coah />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
       <Footer />

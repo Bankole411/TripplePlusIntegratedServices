@@ -39,14 +39,28 @@ export default function CitrusSerenity() {
           </div>
         </section>
 
-        <section className='mx-10 md:mx-20 mb-10 grid grid-cols-1 md:grid-cols-3 gap-5'>
-            <img src={image1} alt="image1" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
+        <section className='mx-10 md:mx-20 lg:hidden md:hidden max-h-[600px] overflow-auto my-10 bg-[#80808030] p-5'>
+       <div className=''>
+          <img src={image1} alt="image1" className='rounded-lg mb-4'/>
+          <img src={image2} alt="image2" className='rounded-lg mb-4'/>
+          <img src={image3} alt="image3" className='rounded-lg mb-4'/>
+          <img src={image4} alt="image4" className='rounded-lg mb-4'/>
+          <img src={image5} alt="image4" className='rounded-lg mb-4'/>
+          <img src={image6} alt="image4" className='rounded-lg mb-4'/>
+          <img src={image7} alt="image4" className='rounded-lg mb-4'/>
+       </div>
+      </section>
+
+        <section className='hidden md:block'>
+          <section className='mx-10 md:mx-20 mb-10 grid grid-cols-1 md:grid-cols-3 gap-5'>
+          <img src={image1} alt="image1" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
             <img src={image2} alt="image2" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
             <img src={image3} alt="image3" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
             <img src={image4} alt="image4" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
             <img src={image5} alt="image5" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
             <img src={image6} alt="image6" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
             <img src={image7} alt="image7" className='max-h-[250px] rounded-lg mb-4 md:grid-cols-1'/>
+          </section>
         </section>
       </section>
     </>

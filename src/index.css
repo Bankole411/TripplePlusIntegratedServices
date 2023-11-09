@@ -176,6 +176,21 @@ code {
   transition: 0.5s;
 }
 
+.project-bg-13 {
+  background-image: url('/src/images/Mr Shoti Abaranje/20180524_141403.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-15 {
+  background-image: url('/src/images/citrus-grove/IMG20231031105128.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-16 {
+  background-image: url('/src/images/coah/IMG20231010121644.jpg');
+  transition: 0.5s;
+}
+
 .project-homepage-title-span{
   position: absolute;
   bottom: 20px;
