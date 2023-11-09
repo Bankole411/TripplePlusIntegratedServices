@@ -11,7 +11,7 @@ function generateProjectClasses(id, biggerProjects) {
 }
 
 export default function Projects() {
-  const biggerProjects = [5]; 
+  const biggerProjects = [5, 10]; 
 
   const projects = projectsData.map((project) => {
     const projectClasses = generateProjectClasses(project.id, biggerProjects);

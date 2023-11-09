@@ -33,7 +33,7 @@ export default function CitrusSerenity() {
               </div>
               <div>
                 <h1 className='opacity-50'>Date</h1>
-                <p>Confirm</p>
+                <p>2018</p>
               </div>
             </div>
           </div>

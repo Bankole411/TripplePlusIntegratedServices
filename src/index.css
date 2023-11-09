@@ -151,6 +151,31 @@ code {
   transition: 0.5s;
 }
 
+.project-bg-8 {
+  background-image: url('/src/images/Wemabod estate Ikeja/img4.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-9 {
+  background-image: url('/src/images/Maungbe-project/img4.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-10 {
+  background-image: url('/src/images/MD principal project/20150117_135912.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-11 {
+  background-image: url('/src/images/Lekki phase 1-project 2/20150117_083925.jpg');
+  transition: 0.5s;
+}
+
+.project-bg-12 {
+  background-image: url('/src/images/Festac project/20180320_120419.jpg');
+  transition: 0.5s;
+}
+
 .project-homepage-title-span{
   position: absolute;
   bottom: 20px;

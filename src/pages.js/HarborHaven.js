@@ -32,7 +32,7 @@ export default function HarborHaven() {
             </div>
             <div>
               <h1 className='opacity-50'>Date</h1>
-              <p>2022</p>
+              <p>2018</p>
             </div>
           </div>
         </div>
