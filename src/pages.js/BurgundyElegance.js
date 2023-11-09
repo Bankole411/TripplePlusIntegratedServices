@@ -6,8 +6,6 @@ import image3 from "../images/Mr Shoti Abaranje/20180517_145313.jpg"
 import image4 from "../images/Mr Shoti Abaranje/20180524_141504.jpg"
 import image5 from "../images/Mr Shoti Abaranje/20180517_152019.jpg"
 import image6 from "../images/Mr Shoti Abaranje/20180524_141522.jpg"
-import image7 from "../images/Mr Shoti Abaranje/20180517_152016.jpg"
-import image8 from "../images/Mr Shoti Abaranje/20180524_141412.jpg"
 
 
 export default function BurgundyElegance() {
