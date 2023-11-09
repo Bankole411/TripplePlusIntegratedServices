@@ -61,7 +61,7 @@ export default function About() {
             <section className='mx-10 md:mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 flex flex-column justify-between items-center'>
                 <div>
                     <span className='bg-[#C41313] py-1 px-3 rounded-full font-semibold text-white'>ABOUT US</span>
-                    <p className='font-semibold text-2xl my-4 md:max-w-[500px] leading-relaxed tracking-wide'>Creative digital media and design agency based by the valley in Palo Alto.</p>
+                    <p className='font-semibold text-2xl my-4 md:max-w-[500px] leading-relaxed tracking-wide'>Interior design and paints production firm based in Lagos, Nigeria</p>
                 </div>
                 <div>
                       <div className='my-10'>
