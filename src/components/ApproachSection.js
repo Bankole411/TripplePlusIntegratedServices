@@ -37,11 +37,11 @@ export default function ApproachSection() {
           <div className=''>
             <div className='font-semibold flex flex-row items-center mb-10'>
               <BiMinus />
-              <p className='mx-2'>Our Approach</p>
+              <p className='mx-2'>Features & Benefits</p>
             </div>
             <span className='font-semibold text-3xl lg:leading-loose leading-relaxed'>
-              Our web development starts and ends with a{' '}
-              <pre className='bg-[#0a3332] inline hover:bg-[#ff0000]'>best-in-class</pre> experience strategy.
+              Why choose Tripple Plus Integrated services? {' '}
+              <pre className='bg-[#0a3332] inline hover:bg-[#ff0000] text-white'> we offer </pre> a unique list of features for our products.
             </span>
 
             <div className='my-10'>

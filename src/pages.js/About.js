@@ -80,7 +80,7 @@ export default function About() {
                 <h1 className='max-w-[350px] leading-relaxed text-3xl font-semibold text-white'>These are the values and morals we stand by</h1>
                 </div>
                 <div className='py-1 my-3 md:col-span-2 lg:col-span-2 md:ml-2'>
-                  <p className="core-values-text md:max-w-[450px] leading-5">We build and activate brands through cultural insight, strategic vision, and the power of emotion across every element.</p>
+                  <p className="core-values-text md:max-w-[450px] leading-5">Our foundation is built on these strong set of core values that guide our every action and decision.</p>
                 </div> 
               </div>
 
