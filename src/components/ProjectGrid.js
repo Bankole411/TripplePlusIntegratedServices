@@ -4,8 +4,11 @@ import { projectsData } from './data';
 import { HiOutlinePlusSm } from 'react-icons/hi';
 
 export default function ProjectGrid() {
-  // Slice the first 6 elements from projectsData
-  const projects = projectsData.slice(0, 6).map((project) => {
+  const specificObjectIDs = [1, 5, 3, 2, 15, 16]; // Example list of specific object IDs
+
+  const projectsToRender = projectsData.filter((project) => specificObjectIDs.includes(project.id));
+  
+  const projects = projectsToRender.map((project) => {
     const projectClass = `project-bg-${project.id}`;
     return (
       <Link to={`projects/${project.route}`} className={`container`} key={project.id}>
@@ -18,6 +21,7 @@ export default function ProjectGrid() {
       </Link>
     );
   });
+  
 
   return (
     <section>
