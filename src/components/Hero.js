@@ -14,8 +14,8 @@ import image2 from '../images/project1/post-completion/IMG20230926104906.webp';
 import image3 from '../images/vintage-blush/IMG_20220503_093053.jpg';
 import image4 from '../images/coah/IMG20231010121700.jpg';
 import image5 from '../images/citrus-grove/IMG20231031105128.jpg';
-import image6 from '../images/project1/post-completion/IMG20230926104903.webp';
-import image7 from '../images/project1/post-completion/IMG20230926104906.webp';
+import image6 from '../images/project1/post-completion/IMG20230926104654.jpg';
+import image7 from '../images/project1/post-completion/IMG20230926104749.webp';
 import image8 from '../images/citrus-serenity/img2.jpg';
 import image9 from '../images/harbor-haven/img1.jpg';
 
@@ -26,9 +26,9 @@ const images = [
     { src: image8, alt: 'Slide 8' },
     { src: image5, alt: 'Slide 5' },
     { src: image6, alt: 'Slide 6' },
-    { src: image7, alt: 'Slide 7' },
     { src: image4, alt: 'Slide 4' },
     { src: image2, alt: 'Slide 2' }
+    { src: image7, alt: 'Slide 7' },
 ];
 
 export default function Hero() {
