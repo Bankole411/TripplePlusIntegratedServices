@@ -27,7 +27,7 @@ const images = [
     { src: image5, alt: 'Slide 5' },
     { src: image6, alt: 'Slide 6' },
     { src: image4, alt: 'Slide 4' },
-    { src: image2, alt: 'Slide 2' }
+    { src: image2, alt: 'Slide 2' },
     { src: image7, alt: 'Slide 7' },
 ];
 
