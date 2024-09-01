@@ -2,10 +2,12 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {Header, Footer} from "./components"
 import {Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility, HarborHaven, BurstOfPeach, MadonProject, Wemabod, BrownstoneOasis, PrincipalProject, BrownProject, WhiteCastle, CitrusGrove, BurgundyElegance, Coah} from "./pages.js"
+import ScrollToTop from '../src/components/ScrollToTop.js';
 
 function App() {
   return (
     <BrowserRouter className="App">
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
