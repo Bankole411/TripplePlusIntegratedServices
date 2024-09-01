@@ -46,7 +46,7 @@ export default function About() {
           <>
             <div className='mb-3 md:mb-0 font-semibold text-2xl md:text-4xl flex items-center'>{service.serviceName}</div>
                   <div className='font-semibold'>
-                    <h1 className='mb-2  text-xl md:text-2xl'>{service.serviceSuperText}</h1>
+                    <h1 className='mb-2  text-xl md:text-2xl italic'>{service.serviceSuperText}</h1>
                     <p className='services-text md:pr-3 mb-10'>{service.seviceSubText}</p>
                   </div>
             <div className='w-full h-[1px] bg-[#000000] col-span-1 md:col-span-2 mb-10'></div>

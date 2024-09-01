@@ -21,8 +21,8 @@ export default function AzureTranquility() {
           <h1>Project Brief</h1>
         </div>
         <div className='font-semibold md:max-w-[500px] leading-relaxed'>
-          <p className='mb-5 opacity-80'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor justo nec nisi congue, id bibendum neque tincidunt.</p>
-          <p className='opacity-80'>Integer nec massa id elit tincidunt fermentum non id sapien. Curabitur vitae urna ac ex efficitur rhoncus in sit amet libero. Etiam sed nunc id libero consequat ultrices. Nullam nec eros vitae turpis finibus auctor.</p>
+          <p className='mb-5 opacity-80'>This two-sided multiple rooms apartment building, came to life with the vibrant touch of our premium paint products. The infusion of a sophisticated taolin finish, blending white and blue hues, adds a playful charm.</p>
+          <p className='opacity-80'>The images showcased below are not digital illusions. They are 💯 the real deal, genuine pictures capturing the completed work. No digital rendering, just good old-fashioned paint magic!😍</p>
           <div className='mt-10 grid grid-cols-2 flex flex-row'>
             <div>
               <h1 className='opacity-50'>Location</h1>

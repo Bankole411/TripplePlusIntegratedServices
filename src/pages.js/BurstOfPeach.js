@@ -14,7 +14,7 @@ export default function BurstOfPeach() {
     <>
     <section className='font-semibold'>
       <section className='bg-[#0a3332] px-10 text-center text-white md:pb-20'>
-        <h1 className='py-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>Burst of Peach</h1>
+        <h1 className='py-10 md:pt-20 md:pb-10 md:text-6xl text-4xl'>The Morville Suites and Apartments</h1>
         {/* <h3 className='pt-10 md:text-xl text-2xl'>Where Colors Unite in Harmony</h3>
         <p className='py-10 md:pt-10 mx-auto max-w-[75vw] text-[20px]'>Step into a world where serenity meets vibrancy at "Burst of Peach." This project, painted in the gentlest hues of peach with delicate whispers of cream, dark blue, and white, offer a unique canvas for your dreams to flourish. Each corner exudes warmth, inviting you to embrace a life of elegance and comfort. "Burst of Peach" is not just a place to reside; it's a celebration of the finer things in life, where every day feels like a gentle, sunlit reverie. Welcome home to a world where dreams effortlessly blossom.</p> */}
       </section>
@@ -24,16 +24,20 @@ export default function BurstOfPeach() {
           <h1>Project Brief</h1>
         </div>
         <div className='font-semibold md:max-w-[500px] leading-relaxed'>
-          <p className='mb-5 opacity-80'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor justo nec nisi congue, id bibendum neque tincidunt.</p>
-          <p className='opacity-80'>Integer nec massa id elit tincidunt fermentum non id sapien. Curabitur vitae urna ac ex efficitur rhoncus in sit amet libero. Etiam sed nunc id libero consequat ultrices. Nullam nec eros vitae turpis finibus auctor.</p>
-          <div className='mt-10 grid grid-cols-2 flex flex-row'>
+          <p className='mb-5 opacity-80'>Our comprehensive range of paint products were used throughout this prestigious AirBnB, transforming it into an aesthetically pleasing haven.</p>
+          <p className='opacity-80'>The utilization of our celebrated matte, satin, emulsion, and gloss paints showcases a commitment to quality and attention to detail. Each product contributes uniquely to the overall visual appeal, creating a harmonious blend that complements the contemporary atmosphere of the Airbnb, delivering an enhanced and inviting experience for guests.</p>
+          <div className='mt-10 grid grid-cols-3 flex flex-row'>
             <div>
               <h1 className='opacity-50'>Location</h1>
-              <p>Abeokuta | Ogun</p>
+              <p>Laderin | Abeokuta</p>
             </div>
             <div>
-              <h1 className='opacity-50'>Date</h1>
-              <p>2022</p>
+              <h1 className='opacity-50 text-center'>Date</h1>
+              <p className='text-center'>2022</p>
+            </div>
+            <div>
+              <h1 className='opacity-50 text-center'>Link</h1>
+              <a href="https://www.themorvillesuitesnapartments.com/" className='text-center text-[#0a3332]'><p>Click here</p></a>
             </div>
           </div>
         </div>

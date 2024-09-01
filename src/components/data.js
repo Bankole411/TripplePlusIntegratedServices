@@ -57,7 +57,7 @@ export const projectsData = [
     },
     {"id": 2,
     "imgUrl": "",
-    "project_name": "Burst of Peach",
+    "project_name": "The Morville Suites",
     "location": "Abeokuta | Ogun",
     "route": "burst-of-peach", 
     },
@@ -245,14 +245,20 @@ export const coreValues = [
 export const servicesData = [
     {
         "id" : 1,
-        "serviceName": "Production only",
-        "serviceSuperText" : "Lorem ipsum dolor sit amet",
-        "seviceSubText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam non dolor semper, eget varius velit facilisis. Suspendisse potenti. Nulla facilisi. Vivamus eu libero non erat auctor luctus a id libero. Vivamus eleifend eros at velit maximus, id malesuada purus tempor.",
+        "serviceName": "Production and Delivery",
+        "serviceSuperText" : "Color Perfection, Delivered to Your Doorstep",
+        "seviceSubText" : "We take pride in crafting paints with precision, tailored to meet the specific color preferences and quantity requirements of our clients. Our dedicated production team ensures that each batch is meticulously formulated, guaranteeing a flawless finish. Once the paints are perfected, we deliver them directly to our clients' doorsteps, providing a seamless and convenient experience. From vibrant hues to subtle tones, our extensive color palette is at your disposal, ensuring your vision comes to life with every brushstroke.",
     },
     {
         "id" : 2,
         "serviceName": "Production and Application",
-        "serviceSuperText" : "Lorem ipsum dolor sit amet",
-        "seviceSubText" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam non dolor semper, eget varius velit facilisis. Suspendisse potenti. Nulla facilisi. Vivamus eu libero non erat auctor luctus a id libero. Vivamus eleifend eros at velit maximus, id malesuada purus tempor.",
+        "serviceSuperText" : "Where Production Meets Precision: Painting Your Imagination",
+        "seviceSubText" : "After creating the perfect paint formulations, we deploy a team of skilled professional painters, accompanied by a dedicated project manager, to your specified location. This service is designed to take the hassle out of the painting process for our clients. The experienced team ensures efficient and precise application within the agreed-upon timeframe, turning your space into a work of art. From production to application, our integrated service ensures a seamless and high-quality painting experience tailored to your unique needs.",
+    },
+    {
+        "id" : 3,
+        "serviceName": "Custom Color Consultation",
+        "serviceSuperText" : "Personalized Palettes: Let Our Experts Guide Your Color Choices",
+        "seviceSubText" : "Our Custom Color Consultation service goes beyond the standard paint offerings, providing a personalized and expert touch to the color selection process. We understand that choosing the perfect palette for your space can be a daunting task, and that's where our experienced color consultants step in. Whether you're looking to refresh your home, update your office environment, or enhance your commercial space, our consultants work closely with you to understand your preferences, style, and the atmosphere you wish to create.",
     },
 ]
