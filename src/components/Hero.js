@@ -21,14 +21,14 @@ import image9 from '../images/harbor-haven/img1.jpg';
 
 const images = [
     { src: image1, alt: 'Slide 1' },
-    { src: image2, alt: 'Slide 2' },
+    { src: image9, alt: 'Slide 9' },
     { src: image3, alt: 'Slide 3' },
-    { src: image4, alt: 'Slide 4' },
+    { src: image8, alt: 'Slide 8' },
     { src: image5, alt: 'Slide 5' },
     { src: image6, alt: 'Slide 6' },
     { src: image7, alt: 'Slide 7' },
-    { src: image8, alt: 'Slide 8' },
-    { src: image9, alt: 'Slide 9' }
+    { src: image4, alt: 'Slide 4' },
+    { src: image2, alt: 'Slide 2' }
 ];
 
 export default function Hero() {
