@@ -1,14 +1,14 @@
-import React from 'react';
-import { useState } from "react"
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ProjectGrid from './ProjectGrid';
 import ApproachSection from './ApproachSection';
 import { paint_products } from "./data";
-
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
+
+
 import image1 from '../images/project1/post-completion/IMG20230926104500.jpg';
 import image2 from '../images/project1/post-completion/IMG20230926104545.jpg';
 import image3 from '../images/project1/post-completion/IMG20230926104550.jpg';
@@ -19,50 +19,46 @@ import image7 from '../images/project1/post-completion/IMG20230926104906.jpg';
 import image8 from '../images/citrus-serenity/img2.jpg';
 import image9 from '../images/harbor-haven/img1.jpg';
 
-export default function Hero(card) {
-    const [isInterior, setisInterior] = useState(true)
+const images = [
+    { src: image1, alt: 'Slide 1' },
+    { src: image2, alt: 'Slide 2' },
+    { src: image3, alt: 'Slide 3' },
+    { src: image4, alt: 'Slide 4' },
+    { src: image5, alt: 'Slide 5' },
+    { src: image6, alt: 'Slide 6' },
+    { src: image7, alt: 'Slide 7' },
+    { src: image8, alt: 'Slide 8' },
+    { src: image9, alt: 'Slide 9' }
+];
+
+export default function Hero() {
+    const [isInterior, setIsInterior] = useState(true);
 
     function handleClick() {
-        setisInterior(prevState => !prevState)
+        setIsInterior(prevState => !prevState);
     }
 
-    const interiorCards = paint_products.filter(card => card.interior)
-    const exteriorCards = paint_products.filter(card => card.exterior)
+    const interiorCards = paint_products.filter(card => card.interior);
+    const exteriorCards = paint_products.filter(card => card.exterior);
 
-    const interior_cards = interiorCards.map(card => {
-        return (
-            <Link to="/">
-                <div key={card.id} className='relative breathing-div bg-white-800 pl-10 pr-5 rounded-md shadow-2xl flex flex-col'>
+    const renderCards = (cards) => {
+        return cards.map(card => (
+            <Link to="/" key={card.id}>
+                <div className='relative breathing-div bg-white-800 pl-10 pr-5 rounded-md shadow-2xl flex flex-col'>
                     <span className='absolute px-3 pb-2 pt-2 rounded-full right-6 top-5 font-semibold'>{card.tag}</span>
                     <div className='newImage mt-20 w-[80%] h-[250px] bg-red-300 object-cover'>
-                        <img src={`./images/product-images/${card.img_url}`} alt="" />
+                        <img src={`./images/product-images/${card.img_url}`} alt={card.name} loading="lazy" />
                     </div>
                     <h2 className='pt-10 pb-5 text-3xl font-bold'>{card.name}</h2>
                     <p className='pb-5 font-semibold'>{card.mini_description}</p>
                     <Link to="/"><h4 className='pb-10 font-semibold'>Learn more</h4></Link>
                 </div>
             </Link>
-        )
-    })
-    const exterior_cards = exteriorCards.map(card => {
-        return (
-            <Link to="/">
-                <div key={card.id} className='relative breathing-div bg-white-800 pl-10 pr-5 rounded-md shadow-2xl flex flex-col'>
-                    <span className='absolute px-3 pb-2 pt-2 rounded-full right-6 top-5 font-semibold'>{card.tag}</span>
-                    <div className='newImage mt-20 w-[80%] h-[250px] bg-red-300 object-cover'>
-                        <img src={`./images/product-images/${card.img_url}`} alt="" />
-                    </div>
-                    <h2 className='pt-10 pb-5 text-3xl font-bold'>{card.name}</h2>
-                    <p className='pb-5 font-semibold'>{card.mini_description}</p>
-                    <Link to="/"><h4 className='pb-10 font-semibold'>Learn more</h4></Link>
-                </div>
-            </Link>
-        )
-    })
+        ));
+    };
 
     return (
         <>
-
             <div className='hidden md:block lg:block mx-10 my-10'>
                 <section className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 flex flex-row items-center'>
                     <div className='font-semibold'>
@@ -82,22 +78,18 @@ export default function Hero(card) {
                                 modules={[Autoplay]}
                                 className='mySwiper'
                             >
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image1} alt='Slide 1' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image2} alt='Slide 2' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image3} alt='Slide 3' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image4} alt='Slide 4' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image8} alt='Slide 8' /></SwiperSlide>
-                                <SwiperSlide className='bg-[#222] rounded-lg'><img src={image9} alt='Slide 9' /></SwiperSlide>
+                                {images.map((image, index) => (
+                                    <SwiperSlide key={index} className='bg-[#222] rounded-lg'>
+                                        <img src={image.src} alt={image.alt} loading="lazy" />
+                                    </SwiperSlide>
+                                ))}
                             </Swiper>
                         </div>
                     </div>
                 </section>
             </div>
 
-            <div className='md:hidden lg:hidden xl-hidden px-5 py-5'>
+            <div className='md:hidden lg:hidden xl:hidden px-5 py-5'>
                 <div className='font-extrabold mx-auto text-center mb-5'>
                     <p className='mb-3 text-2xl'>Tripple Plus Integrated Services</p>
                     <p className='tag-line font-bold text-[25px]'>let's add a <pre className=' inline text-pink-600 italic'>plus</pre> to your property</p>
@@ -114,15 +106,11 @@ export default function Hero(card) {
                             modules={[Autoplay]}
                             className='mySwiper'
                         >
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image1} alt='Slide 1' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image2} alt='Slide 2' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image3} alt='Slide 3' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image4} alt='Slide 4' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image5} alt='Slide 5' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image6} alt='Slide 6' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image7} alt='Slide 7' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image8} alt='Slide 8' /></SwiperSlide>
-                            <SwiperSlide className='bg-[#222] rounded-lg'><img src={image9} alt='Slide 9' /></SwiperSlide>
+                            {images.map((image, index) => (
+                                <SwiperSlide key={index} className='bg-[#222] rounded-lg'>
+                                    <img src={image.src} alt={image.alt} loading="lazy" />
+                                </SwiperSlide>
+                            ))}
                         </Swiper>
                     </div>
                 </div>
@@ -144,10 +132,10 @@ export default function Hero(card) {
                     </Link>
                 </div>
                 {interiorCards.length > 0 && <div className={`${isInterior ? 'block' : 'hidden'} max-width grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 md:ml-10 md:mr-10 mt-10 md:mt-20 mb-10`}>
-                    {interior_cards}
+                    {renderCards(interiorCards)}
                 </div>}
                 {exteriorCards.length > 0 && <div className={`${!isInterior ? 'block' : 'hidden'} max-width grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 md:ml-10 md:mr-10 mt-10 md:mt-20 mb-10`}>
-                    {exterior_cards}
+                    {renderCards(exteriorCards)}
                 </div>}
             </section>
             <section className='mx-5 mb-30 justify-center items-center'>
