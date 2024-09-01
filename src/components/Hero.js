@@ -107,8 +107,8 @@ export default function Hero() {
                             className='mySwiper'
                         >
                             {images.map((image, index) => (
-                                <SwiperSlide key={index} className='bg-[#222] rounded-lg'>
-                                    <img src={image.src} alt={image.alt} loading="lazy" />
+                                <SwiperSlide key={index} className='bg-[#222] rounded-lg flex items-center justify-center overflow-hidden'>
+                                    <img src={image.src} alt={image.alt} loading="lazy" className='w-full h-full object-cover'/>
                                 </SwiperSlide>
                             ))}
                         </Swiper>
