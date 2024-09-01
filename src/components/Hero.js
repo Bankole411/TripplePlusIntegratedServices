@@ -9,11 +9,11 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 
 
-import image1 from '../images/project1/post-completion/IMG20230926104500.webp';
-import image2 from '../images/project1/post-completion/IMG20230926104545.webp';
-import image3 from '../images/project1/post-completion/IMG20230926104550.webp';
-import image4 from '../images/project1/post-completion/IMG20230926104713.webp';
-import image5 from '../images/project1/post-completion/IMG20230926104731.webp';
+import image1 from '../images/PK-apartments/img3.jpg';
+import image2 from '../images/white-project/img1.jpg';
+import image3 from '../images/vintage-blush/IMG_20220503_093053.jpg';
+import image4 from '../images/coah/IMG20231010121700.jpg';
+import image5 from '../images/citrus-grove/IMG20231031105128.jpg';
 import image6 from '../images/project1/post-completion/IMG20230926104903.webp';
 import image7 from '../images/project1/post-completion/IMG20230926104906.webp';
 import image8 from '../images/citrus-serenity/img2.jpg';
