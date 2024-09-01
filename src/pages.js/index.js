@@ -17,5 +17,6 @@ import WhiteCastle from "./WhiteCastle";
 import CitrusGrove from "./CitrusGrove";
 import BurgundyElegance from "./BurgundyElegance";
 import Coah from "./Coah";
+import { ScrollToTop } from "../components";
 
-export { Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility, HarborHaven, BurstOfPeach, MadonProject, Wemabod, BrownstoneOasis, PrincipalProject, BrownProject, WhiteCastle, CitrusGrove, BurgundyElegance, Coah }
+export { Homepage, Projects, About, VintageBlush, Rainbow, Error, CitrusSerenity, AzureTranquility, HarborHaven, BurstOfPeach, MadonProject, Wemabod, BrownstoneOasis, PrincipalProject, BrownProject, WhiteCastle, CitrusGrove, BurgundyElegance, Coah, ScrollToTop}
